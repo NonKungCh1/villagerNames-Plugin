@@ -1,0 +1,12 @@
+# VillagerNames Configuration
+
+# ตั้งค่าการแสดงผลของชื่อ
+name-settings:
+  # สีของชื่อ (ใช้โค้ดสีของ Bukkit, เช่น YELLOW, GOLD, WHITE)
+  # ดูโค้ดสีทั้งหมดได้ที่: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html
+  color: "GOLD"
+
+  # ให้แสดงป้ายชื่อตลอดเวลาหรือไม่ (true = ตลอดเวลา, false = เมื่อมองไปที่ตัว)
+  always-visible: false
+
+# ไม่ต้องใส่รายชื่อในนี้! ปลั๊กอินจะอ่านจากไฟล์ first-names.txt โดยตรง

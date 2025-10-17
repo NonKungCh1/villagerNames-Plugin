@@ -1,6 +1,19 @@
-name: RealisticFire
+name: VillagerNames
 version: 1.0
-main: com.nonkungch.realisticfire.RealisticFire
+main: com.nonkungch.villagernames.VillagerNames
 api-version: 1.21
 author: NonKungCh
-description: Makes fire sources extinguish in the rain.
+description: A professional villager naming plugin.
+commands:
+  villagernames:
+    description: Main command for VillagerNames.
+    aliases: [vn]
+    usage: /<command> [reload | nameall]
+permissions:
+  villagernames.reload:
+    description: Allows reloading the plugin's config.
+    default: op
+  villagernames.nameall:
+    description: Allows naming all existing unnamed villagers.
+    default: op
+    
